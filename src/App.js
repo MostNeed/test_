@@ -3,7 +3,8 @@ import React, { Component } from 'react';//라이브러리 호출
 // import Todo from './Todo';
 // import Animal from './Animal';
 
-import Report1 from './Report1';
+// import Report1 from './Report1';
+import Report2 from './Report2';
 
 
 class App extends Component {  
@@ -42,27 +43,35 @@ class App extends Component {
     // </>
     // )
 
-
     // 1번만 보내서 출력하는 방법
-    const friends = [
-      {name: 'victoria', age: 13, city: 'seoul'},
-      {name: 'sun', age: 34, city: 'busan'},
-      {name: 'johseb', age: 25, city: 'busan'},
-      {name: 'syleemomo', age: 9, city: 'seoul'},
-      {name: 'hannah', age: 41, city: 'daegu'},
-      {name: 'shara', age: 37, city: 'seoul'},
-      {name: 'martin', age: 28, city: 'daegu'},
-      {name: 'gorgia', age: 39, city: 'seoul'},
-      {name: 'nana', age: 24, city: 'busan'},
-      {name: 'dannel', age: 19, city: 'seoul'},
-    ]    
-    return (
-        <>
-          <Report1 friends = {friends} ></Report1>
-        </>
-      )
+    // const friends = [
+    //   {name: 'victoria', age: 13, city: 'seoul'},
+    //   {name: 'sun', age: 34, city: 'busan'},
+    //   {name: 'johseb', age: 25, city: 'busan'},
+    //   {name: 'syleemomo', age: 9, city: 'seoul'},
+    //   {name: 'hannah', age: 41, city: 'daegu'},
+    //   {name: 'shara', age: 37, city: 'seoul'},
+    //   {name: 'martin', age: 28, city: 'daegu'},
+    //   {name: 'gorgia', age: 39, city: 'seoul'},
+    //   {name: 'nana', age: 24, city: 'busan'},
+    //   {name: 'dannel', age: 19, city: 'seoul'},
+    // ]    
+    // return (
+    //     <>
+    //       <Report1 friends = {friends} ></Report1>
+    //     </>
+    //   )
     // ------------------------------------------
 
+    // ------------------------------------------
+    // 연습과제2    
+    // return <Report2></Report2>
+    // ------------------------------------------
+
+    // ------------------------------------------
+    // 연습과제3    
+    return <Report2></Report2>
+    // ------------------------------------------
 
 
 

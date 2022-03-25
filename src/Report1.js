@@ -30,20 +30,24 @@ import React from "react";
 //   }
 
 
-
+// 1번만 받아서 받은거 모두 출력
 function Report1(props){
     const {friends} = props;
     // console.log(friends);
-    return(
-        friends.map(friends => {
-            // console.log(friends);
-            <>
-                <h3>{friends.name}</h3>
-                <h3>{friends.age}</h3>
-                <h3>{friends.city}</h3>
-                <h3>-------------------</h3>
-            </>})
-    )
+    return <>
+        {
+            friends.map(friends => {
+                return(
+                    <>
+                    <h3>{friends.name}</h3>
+                    <h3>{friends.age}</h3>
+                    <h3>{friends.city}</h3>
+                    <h3>-----------------</h3>
+                    </>
+                )
+            })
+        }
+        </>    
 }
 
 
