@@ -4,7 +4,9 @@ import React, { Component } from 'react';//라이브러리 호출
 // import Animal from './Animal';
 
 // import Report1 from './Report1';
-import Report2 from './Report2';
+// import Report2 from './Report2';
+// import Report3 from './Report3';
+// import Report4 from './Report4';
 
 
 class App extends Component {  
@@ -70,7 +72,35 @@ class App extends Component {
 
     // ------------------------------------------
     // 연습과제3    
-    return <Report2></Report2>
+    // const model = {
+    //     title: '해리포터',
+    //     author: '조앤K롤링',
+    //     summary: '해리포터가 마법사로 성장해나가는 과정을 그린 이야기',
+    //     genre: '판타지 소설',
+    //     release: '2003년 9월 4일',
+    //     ISBN: '1234567890'
+    //   }
+    // return (
+    //   <>
+    //     <Report3 model = {model}></Report3>
+    //   </>
+    // )
+    // ------------------------------------------
+
+    // ------------------------------------------
+    // 연습과제4    
+    // const state  = {
+    //   type: 'cat',
+    //   name: 'meyow',
+    //   size: 'small',
+    //   sound: 'low',
+    //   appearence: 'cute'
+    //   }
+    // return (
+    //   <>
+    //     <Report4 state = {state}></Report4>
+    //   </>
+    // )
     // ------------------------------------------
 
 
