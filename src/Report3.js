@@ -5,6 +5,7 @@ function Report3(props){
     const {model} = props;
     return <>
         <h1>도서 정보</h1>
+        <h2>TEST</h2>
         <h3>제목 - {model.title}</h3>
         <h3>저자 - {model.author}</h3>
         <h3>줄거리 - {model.summary}</h3>
